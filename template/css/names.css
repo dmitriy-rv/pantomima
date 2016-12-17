@@ -1,0 +1,79 @@
+.header .slider{
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.content{
+	padding-bottom: 10px;
+}
+
+.names{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.names .title{
+	text-align: center;
+	font-family:ametist;
+	font-size: 80px;
+	margin-bottom:20px;
+}
+
+.names .letters{
+	text-align: center;
+	max-width: 900px;
+	margin: auto;
+}
+
+.names .letters a{
+
+	font-family: ametist;
+	color: black;
+	font-size: 40px;
+	text-decoration: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.names .letters a:hover{
+	color: #E21212;
+}
+
+.names .container{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.names .selector{
+	width: 220px;
+	height: 330px;
+	margin:20px 15px;
+	position: relative;
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.8);
+}
+
+.names .selector a{
+	color: black;
+}
+
+.names .selector .title{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	padding: 5px;
+	background-color: #DFB162;
+	font-size:24px;
+	font-family: bookman;
+	margin-bottom:0px;
+}
+
+.th .selector{
+	width: 350px;
+	height: 234px;
+}
+
+.foto .selector{
+	width: 250px;
+	height: 250px;
+}

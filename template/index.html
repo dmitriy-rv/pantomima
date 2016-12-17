@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Архив пантомимы</title>
+	<link rel="stylesheet" href="/static/css/style.css" type="text/css">
+</head>
+<body>
+	<div class="wrap">
+		<div class="logo">
+			<div class="text">
+				Пантомима XX века<br/>
+				<span>АРХИВНЫЕ МАТЕРИАЛЫ</span>
+			</div>
+			<img src="/static/img/logo.png" alt="">
+		</div>
+		<div class="menu">
+			<img src="/static/img/clip.png" alt="">
+			<ul>
+				<li><a href="">Главная</a></li>
+				<li class="but_arch"><a>Архив</a>
+				<div class="menu_popup">
+					<ul>
+						<li><a href="archiv_ot">Отечественная</a></li>
+						<li><a href="archiv_in">Инстранная</a></li>
+					</ul>
+				</div>
+				</li>
+				<li><a href="news">Новости</a></li>
+				<li><a href="make">Создатели</a></li>
+				<li><a href="contact">О проекте</a></li>
+			</ul>
+			
+		</div>
+		<div class="content">
+			<div class="header">
+				<div class="slider">
+					<img src="/static/img/slider.jpg" alt="">
+				</div>
+			</div>
+			<div class="main">
+				<div class="title">
+					Самый полный архив материалов о современной пантомиме!
+				</div>
+				<div class="text">
+					{{ text }} 
+				</div>
+			</div>
+			<div class="news">
+			{% each tab %}
+				<div class="item">
+					<div class="title">
+						{{ it.name }}
+					</div>
+					<div class="time">
+						{{ it.data }}
+					</div>
+					<div class="text">
+						{{ it.text }}
+					</div>
+				</div> 
+			{% end %}
+			</div>
+			<div class="footer"></div>
+		</div>
+		<div class="footer_img_1">
+			<img src="/static/img/footer_img_1.jpg" alt="">
+		</div>
+		<div class="footer_img_2">
+			<img src="/static/img/footer_img_2.jpg" alt="">
+		</div>
+		<div class="footer_img_3">
+			<img src="/static/img/footer_img_3.jpg" alt="">
+		</div>
+	</div>
+</body>
+</html>

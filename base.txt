@@ -1,0 +1,3 @@
+Articles;text|type:text|name:Текст|;name|required:True|type:char|name:Название|value:100|;
+News;name|required:True|type:char|name:Название|value:100|;text|type:text|name:Текст|;chek|type:tinyint|name:На главную|value:1|;date|type:date|name:Дата|;
+Test;name|type:char|name:Название|value:40|;img|type:image|name:Изображение|;text|type:text|name:Текст|;number|type:int|name:Число|value:10|;test_chek|type:set|name:Выбор|value:'Первый','Второй','Еще','И еще'|;test_list|type:enum|name:Выбор|value:'Првый','Второй'|;date|required:True|type:date|name:Дата|;chek|type:tinyint|name:Checkbox|value:1|;
